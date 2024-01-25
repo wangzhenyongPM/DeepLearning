@@ -75,7 +75,7 @@ class_names = ['cat', 'dog']  # 这个顺序很重要，要和训练时候的类
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-# ------------------------ 载入模型并且训练 --------------------------- #
+# ------------------------ 载入模型并且验证 --------------------------- #
 model = torch.load(model_save_path)
 model.eval()
 # print(model)
