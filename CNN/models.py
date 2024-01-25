@@ -11,7 +11,6 @@ import torch.utils.data.distributed
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 
-# https://www.jb51.net/article/214392.htm
 # 设置超参数
 #每次的个数
 BATCH_SIZE = 20
